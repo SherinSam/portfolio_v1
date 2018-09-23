@@ -1,0 +1,122 @@
+
+/* big tablets to 1200px. widths smaller than 1140px row */
+/* @media only screen and (max-width: 1200px) {
+
+} */
+
+
+/* small tablets to big tablets. from 768px - 1023px */
+@media only screen and (max-width: 1023px) {
+    .svg-one {
+        
+        width: 550px ;
+        height :500px;         
+    }
+
+    .svg-telescope {
+        width: 450px ;
+        height: 600px;                      
+    }
+}
+
+/* original sizes:
+ class="svg-one" width="366" height="620"
+class="svg-telescope" width="679" height="488"  */
+        
+
+/* small phones to small tablets. from 481px - 767px */
+@media only screen and (max-width: 767px) {
+    .svg-one {    
+        width: 500px ;
+        height :450px;         
+    }
+
+    .svg-telescope {
+        width: 400px ;
+        height: 500px;                
+    }
+}
+
+
+/* for small phones. from 0 - 480px */
+@media only screen and (max-width: 480px) {
+    .page-one {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .svg-one {    
+        width: 600px ;
+        height :500px;    
+        order: 2;
+    }
+
+    .svg-telescope {
+        display: none;
+    }
+
+    .heading-area {
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .navbar {
+        grid-row: 2/3;
+        grid-column: 4/12;
+        list-style: none;
+    }
+
+    .heading-svg-about {
+        grid-column: 5/10;
+        margin-bottom: 2%;
+    }
+
+    .about-text {
+        grid-column: 3/12;
+    }
+
+    .heading-svg-resume {
+        grid-column: 5/8
+    }
+
+    .resume-content {
+        align-content: flex-start;   
+    }
+
+    .educ-svg-resume {
+        margin-top: 5%;     
+    } 
+
+    .skillset-svg-resume {
+        margin-top: 15%; 
+    }
+    
+    .exp-svg-resume {
+        margin-top:20%  ;    
+    }
+
+
+    .heading-svg-contact {
+        grid-column: 5/8
+    }
+
+    #name, #email, #message, #submit {
+        padding: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 1%;
+        margin-left: 25%;
+        width: 50%;
+    }
+
+    #submit {
+        margin-top: 5%
+    }
+
+    #message {
+      height:  80px;
+    }
+
+}
