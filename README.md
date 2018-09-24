@@ -1,10 +1,10 @@
 
 ## Links 
 
-[Deployed portfolio site](https://portfolio-sherinsamuel.netlify.com/)
+[Deployed portfolio site](https://sherinsam-portfolio.netlify.com/)
 
 
-[Portfolio on GitHub](https://github.com/SherinSam/portfolio)
+[Portfolio on GitHub](https://github.com/SherinSam/portfolio_v1)
 
 ## Description of website
 
